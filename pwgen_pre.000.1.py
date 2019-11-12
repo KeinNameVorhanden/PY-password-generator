@@ -31,6 +31,7 @@ class Ui_MainWindow(QWidget):
         self.counter_1 = QtWidgets.QSpinBox(self.centralwidget)
         self.counter_1.setGeometry(QtCore.QRect(160, 90, 40, 20))
         self.counter_1.setObjectName("counter_1")
+        self.counter_1.setMinimum(int(1))
         self.counter_1.setMaximum(int(24))
         self.counter_1.setAutoFillBackground(False)
         self.counter_1.setStyleSheet("background: rgb(186, 186, 186)")
